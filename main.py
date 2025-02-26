@@ -13,7 +13,7 @@ def create_dashboard():
     root.geometry("800x500")
     
     # Load background image
-    bg_image = Image.open("background.jpg")  # Replace with your image file
+    bg_image = Image.open("background.jpg") 
     bg_image = bg_image.resize((800, 500), Image.LANCZOS)
     bg_photo = ImageTk.PhotoImage(bg_image)
 
